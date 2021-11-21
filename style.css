@@ -87,6 +87,7 @@ button:hover{
     margin-left: 1.7rem;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -179,4 +180,142 @@ button:hover{
     margin-left: 0rem;
     border-radius: 2px;
     margin-top: 1.5rem;
+}
+
+
+
+@media(max-width:290px){
+    .navbar {
+        background-color: #3030305e;
+        backdrop-filter: blur(1px);
+        width: 20rem;
+        height: 4rem;
+        margin-top: 1rem;
+        border-radius: 10px;
+        margin-left: 0.8rem;
+    }
+    
+    .signUp {
+        background-color: #3030305e;
+        backdrop-filter: blur(1px);
+        width: 5rem;
+        height: 4rem;
+        margin-top: 1rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        border-radius: 10px;
+    }
+
+    .container{
+        display: block;
+        width: 15.8rem;
+        height: 40rem;
+        margin-top: 1rem;
+        border-radius: 10px;
+        margin-left: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .login{
+        display: none;
+    }
+    .img{
+        background-color: #3030305e;
+        backdrop-filter: blur(1px);
+        width: 13.7rem;
+        height: 15rem;
+        margin-left: 1rem;
+        border-radius: 10px;
+        margin-top: -1rem;
+    }
+
+    .login2{
+    background-color: #3030305e;
+    backdrop-filter: blur(1px);
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    }
+
+    .p1{
+    background-color: #3030305e;
+    backdrop-filter: blur(1px);
+    width: 9rem;
+    height: 0.8rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    }
+
+    .p2{
+    background-color: #3030305e;
+    backdrop-filter: blur(1px);
+    width: 6rem;
+    height: 0.8rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    }
+
+    .heads{
+        margin-top: -2rem;
+    }
+
+    .head1 {
+        background-color: #3030305e;
+        backdrop-filter: blur(1px);
+        width: 14rem;
+        height: 2rem;
+        border-radius: 5px;
+        margin-top: 4rem;
+        margin-left: 0.8rem;}
+
+    .head2 {
+        background-color: #3030305e;
+        backdrop-filter: blur(1px);
+        width: 14rem;
+        height: 1rem;
+        border-radius: 2px;
+        margin-top: 1rem;
+        margin-left: 0.8rem;
+    }
+
+    .paras {
+        margin-top: 0rem;
+    }
+
+    .p3, .p6{
+        width: 14rem;
+        height: 1rem;      
+        margin-left: 0.8rem;
+    }
+
+    .p4, .p5{
+        display: none;
+    }
+
+    .p7{
+        width: 10rem;
+        height: 1rem;      
+        margin-left: 0.8rem;
+    }
+
+    button {
+        height: 2.5rem;
+        width: 6rem;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        border-radius: 10px;
+        background: rgb(243, 195, 37);
+        border: 5px solid rgb(243, 195, 37);
+        color: black;
+        margin-left: -8rem;
+        margin-top: -2.5rem;
+        transition: 0.1s ease-in-out;
+    }
 }
